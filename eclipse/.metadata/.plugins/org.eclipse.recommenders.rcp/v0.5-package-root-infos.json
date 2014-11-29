@@ -1,0 +1,990 @@
+[
+  {
+    "symbolicName": "com.paulscode.libraryjavasound",
+    "version": {
+      "major": 20101123,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+    "jarFileModificationDate": "2014-03-13T21:32:16.034-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.paulscode\\libraryjavasound\\20101123\\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\\libraryjavasound-20101123.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.java.jutils.jutils",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+    "jarFileModificationDate": "2014-03-13T21:33:33.203-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.java.jutils\\jutils\\1.0.0\\e12fe1fda814bd348c1579329c86943d2cd3c6a6\\jutils-1.0.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lwjgl-2.9.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f58c5aabcef0e41718a564be9f8e412fff8db847",
+    "jarFileModificationDate": "2014-10-28T15:23:45.258-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl.lwjgl\\lwjgl\\2.9.1\\f58c5aabcef0e41718a564be9f8e412fff8db847\\lwjgl-2.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.logging.log4j-api",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "beta9"
+    },
+    "jarFileFingerprint": "1dd66e68cccd907880229f9e2de1314bd13ff785",
+    "jarFileModificationDate": "2014-03-13T21:33:35.477-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.0-beta9\\1dd66e68cccd907880229f9e2de1314bd13ff785\\log4j-api-2.0-beta9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e7e2c24eb13d0c1e1ade7fd0883589abd80c2e09",
+    "jarFileModificationDate": "2014-09-15T09:36:30.273-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.icu.core",
+    "version": {
+      "major": 51,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "63d216a9311cca6be337c1e458e587f99d382b84",
+    "jarFileModificationDate": "2014-03-13T21:32:12.837-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j-core-mojang\\51.2\\63d216a9311cca6be337c1e458e587f99d382b84\\icu4j-core-mojang-51.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a60a5e993c98c864010053cb901b7eab25306568",
+    "jarFileModificationDate": "2014-03-13T19:45:13.488-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.2.4\\a60a5e993c98c864010053cb901b7eab25306568\\gson-2.2.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e15f5140cfdafc6750e44a3c6786879d28ccbcdb",
+    "jarFileModificationDate": "2014-09-15T09:36:30.289-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "198aedf068b3039db21280e2bc7fbaddbe516417",
+    "jarFileModificationDate": "2014-09-15T09:36:30.273-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jsr305-1.3.9",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf",
+    "jarFileModificationDate": "2014-10-28T15:21:58.781-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.findbugs\\jsr305\\1.3.9\\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\\jsr305-1.3.9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "twitch-5.16",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1f55f009c61637c10c0acfb8b5ffc600f30044b4",
+    "jarFileModificationDate": "2014-10-28T15:23:47.966-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\tv.twitch\\twitch\\5.16\\1f55f009c61637c10c0acfb8b5ffc600f30044b4\\twitch-5.16.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jinput-platform-2.0.5-natives-linux",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+    "jarFileModificationDate": "2014-03-13T21:34:36.964-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.java.jinput\\jinput-platform\\2.0.5\\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\\jinput-platform-2.0.5-natives-linux.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "13b5a788446fde58310a1186afc76bd0d3afaf3c",
+    "jarFileModificationDate": "2014-09-15T09:36:30.289-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.paulscode.codecjorbis",
+    "version": {
+      "major": 20101023,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c73b5636faf089d9f00e8732a829577de25237ee",
+    "jarFileModificationDate": "2014-03-13T21:32:15.462-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.paulscode\\codecjorbis\\20101023\\c73b5636faf089d9f00e8732a829577de25237ee\\codecjorbis-20101023.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.logging",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+    "jarFileModificationDate": "2014-05-23T14:20:28.933-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.1.3\\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\\commons-logging-1.1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.plugins.scala-continuations-library",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0e517c53a7e9acd6b1668c5a35eccbaa3bab9aac",
+    "jarFileModificationDate": "2014-10-28T15:22:36.400-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.plugins\\scala-continuations-library_2.11\\1.0.2\\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\\scala-continuations-library_2.11-1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jinput-platform-2.0.5-natives-osx",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+    "jarFileModificationDate": "2014-03-13T21:34:37.651-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.java.jinput\\jinput-platform\\2.0.5\\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\\jinput-platform-2.0.5-natives-osx.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "twitch-platform-5.16-natives-osx",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "62503ee712766cf77f97252e5902786fd834b8c5",
+    "jarFileModificationDate": "2014-10-28T15:24:04.076-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\tv.twitch\\twitch-platform\\5.16\\62503ee712766cf77f97252e5902786fd834b8c5\\twitch-platform-5.16-natives-osx.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.scala-library",
+    "version": {
+      "major": 2,
+      "minor": 11,
+      "micro": 1,
+      "qualifier": "v20140519-130118-1e1defd99c"
+    },
+    "jarFileFingerprint": "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+    "jarFileModificationDate": "2014-10-28T15:22:48.417-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-library\\2.11.1\\e11da23da3eabab9f4777b9220e60d44c1aab6a\\scala-library-2.11.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "twitch-platform-5.16-natives-windows-32",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7c6affe439099806a4f552da14c42f9d643d8b23",
+    "jarFileModificationDate": "2014-10-28T15:18:01.338-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\tv.twitch\\twitch-platform\\5.16\\7c6affe439099806a4f552da14c42f9d643d8b23\\twitch-platform-5.16-natives-windows-32.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9a1284417f00f1a4c77e67d71a6fbea2eeaf5d7c",
+    "jarFileModificationDate": "2014-09-15T09:36:30.523-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fd611e3ec33d0edbb920cd31b21479beddc67a5d",
+    "jarFileModificationDate": "2014-09-15T09:36:30.554-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "vecmath-1.3.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d",
+    "jarFileModificationDate": "2014-03-13T21:30:29.954-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\java3d\\vecmath\\1.3.1\\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\\vecmath-1.3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.guava",
+    "version": {
+      "major": 17,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9c6ef172e8de35fd8d4d8783e4821e57cdef7445",
+    "jarFileModificationDate": "2014-10-28T15:24:36.860-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\17.0\\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\\guava-17.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.compress",
+    "version": {
+      "major": 1,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+    "jarFileModificationDate": "2014-10-28T15:23:10.384-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-compress\\1.8.1\\a698750c16740fd5b3871425f4cb3bbaa87f529d\\commons-compress-1.8.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "authlib-1.5.16",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ef1582b11fd0943d069cdcb72e99008ac209a283",
+    "jarFileModificationDate": "2014-10-28T15:23:38.907-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\authlib\\1.5.16\\ef1582b11fd0943d069cdcb72e99008ac209a283\\authlib-1.5.16.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "forgeSrc-1.7.10-10.13.2.1232",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "de6233cf4b577af24b5df8eb8a4149a1f54598af",
+    "jarFileModificationDate": "2014-10-28T16:02:35.169-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.2.1232\\forgeSrc-1.7.10-10.13.2.1232.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.scala-reflect",
+    "version": {
+      "major": 2,
+      "minor": 11,
+      "micro": 1,
+      "qualifier": "v20140519-130118-1e1defd99c"
+    },
+    "jarFileFingerprint": "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+    "jarFileModificationDate": "2014-10-28T15:22:58.227-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-reflect\\2.11.1\\6580347e61cc7f8e802941e7fde40fa83b8badeb\\scala-reflect-2.11.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5371d1c1a62c1d66131672e2fc1f7463794a8563",
+    "jarFileModificationDate": "2014-09-15T09:36:38.695-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.objectweb.asm.all.debug",
+    "version": {
+      "major": 5,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f9e364ae2a66ce2a543012a4668856e84e5dab74",
+    "jarFileModificationDate": "2014-10-28T15:22:00.813-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-debug-all\\5.0.3\\f9e364ae2a66ce2a543012a4668856e84e5dab74\\asm-debug-all-5.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b92d787bb1da8fa3a62d7f5b3cdb61c0c9144d31",
+    "jarFileModificationDate": "2014-09-15T09:36:30.242-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.typesafe.config",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f771f71fdae3df231bcd54d5ca2d57f0bf93f467",
+    "jarFileModificationDate": "2014-10-28T15:22:08.518-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.typesafe\\config\\1.2.1\\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\\config-1.2.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.paulscode.soundsystem",
+    "version": {
+      "major": 20120107,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+    "jarFileModificationDate": "2014-03-13T21:32:18.142-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.paulscode\\soundsystem\\20120107\\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\\soundsystem-20120107.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "launchwrapper-1.11",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9c0592c6e1e9ea296a70948081bd4cc84dda1289",
+    "jarFileModificationDate": "2014-10-28T15:21:57.703-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.minecraft\\launchwrapper\\1.11\\9c0592c6e1e9ea296a70948081bd4cc84dda1289\\launchwrapper-1.11.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "07f23f20f60e8e37eb42758dc2b25fb5bb36806e",
+    "jarFileModificationDate": "2014-09-15T09:36:38.367-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ca36d1bf6c45f26319f49020d9b8f0071152a73f",
+    "jarFileModificationDate": "2014-09-15T09:36:30.226-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.scala-lang.modules.scala-parser-combinators",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+    "jarFileModificationDate": "2014-10-28T15:22:50.401-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-parser-combinators_2.11\\1.0.1\\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\\scala-parser-combinators_2.11-1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "realms-1.3.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0807ae355ee63583becd7ea60e76aab1532bb42e",
+    "jarFileModificationDate": "2014-10-28T15:23:08.806-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\realms\\1.3.5\\807ae355ee63583becd7ea60e76aab1532bb42e\\realms-1.3.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "twitch-external-platform-4.5-natives-windows-64",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c3cde57891b935d41b6680a9c5e1502eeab76d86",
+    "jarFileModificationDate": "2014-10-28T15:24:25.699-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\tv.twitch\\twitch-external-platform\\4.5\\c3cde57891b935d41b6680a9c5e1502eeab76d86\\twitch-external-platform-4.5-natives-windows-64.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.scala-compiler",
+    "version": {
+      "major": 2,
+      "minor": 11,
+      "micro": 1,
+      "qualifier": "v20140519-130118-1e1defd99c"
+    },
+    "jarFileFingerprint": "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+    "jarFileModificationDate": "2014-10-28T15:22:34.682-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-compiler\\2.11.1\\56ea2e6c025e0821f28d73ca271218b8dd04926a\\scala-compiler-2.11.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.codec",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ce04e34240f674bc72680f8b843b1457383161a",
+    "jarFileModificationDate": "2014-10-28T15:23:33.735-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\commons-codec\\commons-codec\\1.9\\9ce04e34240f674bc72680f8b843b1457383161a\\commons-codec-1.9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.plugins.scala-continuations-plugin",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f361a3283452c57fa30c1ee69448995de23c60f7",
+    "jarFileModificationDate": "2014-10-28T15:22:37.697-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.plugins\\scala-continuations-plugin_2.11.1\\1.0.2\\f361a3283452c57fa30c1ee69448995de23c60f7\\scala-continuations-plugin_2.11.1-1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.modules.scala-parser-combinators",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+    "jarFileModificationDate": "2014-10-28T15:23:54.092-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.modules\\scala-parser-combinators_2.11\\1.0.1\\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\\scala-parser-combinators_2.11-1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.modules.scala-xml",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+    "jarFileModificationDate": "2014-10-28T15:23:02.571-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-xml_2.11\\1.0.2\\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\\scala-xml_2.11-1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "614bd1ea1275c09b50be657fa4daa0b4a84e720f",
+    "jarFileModificationDate": "2014-09-15T09:36:30.195-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\access-bridge.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b08c55791e330b887928d404c7ed41f2832d19d3",
+    "jarFileModificationDate": "2014-09-15T09:36:30.211-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.scala-lang.scala-actors",
+    "version": {
+      "major": 2,
+      "minor": 11,
+      "micro": 0,
+      "qualifier": "v20140415-163722-cac6383e66"
+    },
+    "jarFileFingerprint": "8ccfb6541de179bb1c4d45cf414acee069b7f78b",
+    "jarFileModificationDate": "2014-10-28T15:23:50.170-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-actors\\2.11.0\\8ccfb6541de179bb1c4d45cf414acee069b7f78b\\scala-actors-2.11.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpclient",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "18f4247ff4572a074444572cee34647c43e7c9c7",
+    "jarFileModificationDate": "2014-05-23T14:03:04.175-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpclient\\4.3.3\\18f4247ff4572a074444572cee34647c43e7c9c7\\httpclient-4.3.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lwjgl_util-2.9.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e",
+    "jarFileModificationDate": "2014-10-28T15:23:46.602-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl.lwjgl\\lwjgl_util\\2.9.1\\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\\lwjgl_util-2.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.paulscode.librarylwjglopenal",
+    "version": {
+      "major": 20100824,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "73e80d0794c39665aec3f62eee88ca91676674ef",
+    "jarFileModificationDate": "2014-03-13T21:32:16.331-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.paulscode\\librarylwjglopenal\\20100824\\73e80d0794c39665aec3f62eee88ca91676674ef\\librarylwjglopenal-20100824.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5318786f78c0ea3ed445524b086beca0f61643ab",
+    "jarFileModificationDate": "2014-09-15T09:36:31.101-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f4081b69df48f293cf72c65d2cbe0108fbd1539",
+    "jarFileModificationDate": "2014-09-15T09:36:30.289-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "scala-actors-migration_2.11-1.1.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
+    "jarFileModificationDate": "2014-10-28T15:22:09.549-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-actors-migration_2.11\\1.1.0\\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\\scala-actors-migration_2.11-1.1.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fc2caa32ebe12d2e613dc7778b2b55692232bb54",
+    "jarFileModificationDate": "2014-09-15T09:36:37.211-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "io.netty.netty-all",
+    "version": {
+      "major": 4,
+      "minor": 0,
+      "micro": 10,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "9e50bd52ffe257a0e2cd8d971688d6ce7d174325",
+    "jarFileModificationDate": "2014-03-13T21:32:41.556-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-all\\4.0.10.Final\\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\\netty-all-4.0.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.scala-lang.modules.scala-xml",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "820fbca7e524b530fdadc594c39d49a21ea0337e",
+    "jarFileModificationDate": "2014-10-28T15:23:52.373-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.modules\\scala-xml_2.11\\1.0.2\\820fbca7e524b530fdadc594c39d49a21ea0337e\\scala-xml_2.11-1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.lang3",
+    "version": {
+      "major": 3,
+      "minor": 3,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "90a3822c38ec8c996e84c16a3477ef632cbc87a3",
+    "jarFileModificationDate": "2014-10-28T15:24:38.751-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-lang3\\3.3.2\\90a3822c38ec8c996e84c16a3477ef632cbc87a3\\commons-lang3-3.3.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "twitch-external-platform-4.5-natives-windows-32",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "18215140f010c05b9f86ef6f0f8871954d2ccebf",
+    "jarFileModificationDate": "2014-10-28T15:18:19.037-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\tv.twitch\\twitch-external-platform\\4.5\\18215140f010c05b9f86ef6f0f8871954d2ccebf\\twitch-external-platform-4.5-natives-windows-32.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lwjgl-platform-2.9.1-natives-osx",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac",
+    "jarFileModificationDate": "2014-10-28T15:24:30.855-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl.lwjgl\\lwjgl-platform\\2.9.1\\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\\lwjgl-platform-2.9.1-natives-osx.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "trove4j-3.0.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "42ccaf4761f0dfdfa805c9e340d99a755907e2dd",
+    "jarFileModificationDate": "2014-03-13T21:31:36.268-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.trove4j\\trove4j\\3.0.3\\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\\trove4j-3.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.typesafe.akka.actor",
+    "version": {
+      "major": 2,
+      "minor": 3,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ed62e9fc709ca0f2ff1a3220daa8b70a2870078e",
+    "jarFileModificationDate": "2014-10-28T15:22:07.123-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.typesafe.akka\\akka-actor_2.11\\2.3.3\\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\\akka-actor_2.11-2.3.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.logging.log4j-core",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "beta9"
+    },
+    "jarFileFingerprint": "678861ba1b2e1fccb594bb0ca03114bb05da9695",
+    "jarFileModificationDate": "2014-03-13T21:33:48.477-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-core\\2.0-beta9\\678861ba1b2e1fccb594bb0ca03114bb05da9695\\log4j-core-2.0-beta9.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jinput-platform-2.0.5-natives-windows",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+    "jarFileModificationDate": "2014-03-13T19:47:37.380-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.java.jinput\\jinput-platform\\2.0.5\\385ee093e01f587f30ee1c8a2ee7d408fd732e16\\jinput-platform-2.0.5-natives-windows.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.io",
+    "version": {
+      "major": 2,
+      "minor": 4,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
+    "jarFileModificationDate": "2014-03-13T21:33:29.867-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\commons-io\\commons-io\\2.4\\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\\commons-io-2.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jinput-2.0.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+    "jarFileModificationDate": "2014-03-13T21:33:32.969-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.java.jinput\\jinput\\2.0.5\\39c7796b469a600f72380316f6b1f11db6c2c7c4\\jinput-2.0.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.paulscode.codecwav",
+    "version": {
+      "major": 20101023,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+    "jarFileModificationDate": "2014-03-13T21:32:15.672-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\com.paulscode\\codecwav\\20101023\\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\\codecwav-20101023.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lzma-0.0.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "521616dc7487b42bef0e803bd2fa3faf668101d7",
+    "jarFileModificationDate": "2014-03-13T21:32:13.149-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\lzma\\lzma\\0.0.1\\521616dc7487b42bef0e803bd2fa3faf668101d7\\lzma-0.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lwjgl-platform-2.9.1-natives-windows",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4c517eca808522457dd95ee8fc1fbcdbb602efbe",
+    "jarFileModificationDate": "2014-10-28T15:17:56.619-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl.lwjgl\\lwjgl-platform\\2.9.1\\4c517eca808522457dd95ee8fc1fbcdbb602efbe\\lwjgl-platform-2.9.1-natives-windows.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.httpcomponents.httpcore",
+    "version": {
+      "major": 4,
+      "minor": 3,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e",
+    "jarFileModificationDate": "2014-05-23T14:20:27.433-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpcore\\4.3.2\\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\\httpcore-4.3.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8491d57e866f6ad8a572ab49a11c668284b81abe",
+    "jarFileModificationDate": "2014-09-15T09:36:39.977-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5e2c12ffab605a78f773e42b2497a9569316346f",
+    "jarFileModificationDate": "2014-09-15T09:36:30.273-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "twitch-platform-5.16-natives-windows-64",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "39d0c3d363735b4785598e0e7fbf8297c706a9f9",
+    "jarFileModificationDate": "2014-10-28T15:24:01.608-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\tv.twitch\\twitch-platform\\5.16\\39d0c3d363735b4785598e0e7fbf8297c706a9f9\\twitch-platform-5.16-natives-windows-64.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sf.jopt-simple.jopt-simple",
+    "version": {
+      "major": 4,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6065cc95c661255349c1d0756657be17c29a4fd3",
+    "jarFileModificationDate": "2014-03-13T19:45:20.744-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.jopt-simple\\jopt-simple\\4.5\\6065cc95c661255349c1d0756657be17c29a4fd3\\jopt-simple-4.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a11ae5dba697ac3a10aced34caca66a2b3d2526d",
+    "jarFileModificationDate": "2014-09-15T09:36:37.023-06:00",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.scala-lang.modules.scala-swing",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+    "jarFileModificationDate": "2014-10-28T15:23:00.602-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-swing_2.11\\1.0.1\\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\\scala-swing_2.11-1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "lwjgl-platform-2.9.1-natives-linux",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "aa9aae879af8eb378e22cfc64db56ec2ca9a44d1",
+    "jarFileModificationDate": "2014-10-28T15:24:28.871-06:00",
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl.lwjgl\\lwjgl-platform\\2.9.1\\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\\lwjgl-platform-2.9.1-natives-linux.jar",
+    "javaRuntime": false
+  }
+]

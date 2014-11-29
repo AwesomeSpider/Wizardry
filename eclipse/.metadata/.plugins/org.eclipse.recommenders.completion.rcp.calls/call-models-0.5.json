@@ -1,0 +1,27 @@
+{
+  "C:\\Users\\Wyatt\\.gradle\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.2.1232\\forgeSrc-1.7.10-10.13.2.1232.jar": {
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.2.1232\\forgeSrc-1.7.10-10.13.2.1232.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Wyatt\\.gradle\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.2.1232\\forgeSrc-1.7.10-10.13.2.1232.jar\u0027. Neither fingerprint \u0027de6233cf4b577af24b5df8eb8a4149a1f54598af\u0027 nor symbolic name \u0027forgeSrc-1.7.10-10.13.2.1232\u0027 are known."
+  },
+  "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Users\\Wyatt\\Documents\\eclipse\\jre\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\Wyatt\\Desktop\\Mods\\1.7.10\\Forge\\src\\main\\java": {
+    "location": "C:\\Users\\Wyatt\\Desktop\\Mods\\1.7.10\\Forge\\src\\main\\java",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Wyatt\\Desktop\\Mods\\1.7.10\\Forge\\src\\main\\java\u0027. Skipped."
+  },
+  "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.0-beta9\\1dd66e68cccd907880229f9e2de1314bd13ff785\\log4j-api-2.0-beta9.jar": {
+    "location": "C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.0-beta9\\1dd66e68cccd907880229f9e2de1314bd13ff785\\log4j-api-2.0-beta9.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Wyatt\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.0-beta9\\1dd66e68cccd907880229f9e2de1314bd13ff785\\log4j-api-2.0-beta9.jar\u0027. Neither fingerprint \u00271dd66e68cccd907880229f9e2de1314bd13ff785\u0027 nor symbolic name \u0027org.apache.logging.log4j-api\u0027 are known."
+  },
+  "C:\\Users\\Wyatt\\Desktop\\Mods\\1.7.10\\Wizardry\\src\\main\\java": {
+    "location": "C:\\Users\\Wyatt\\Desktop\\Mods\\1.7.10\\Wizardry\\src\\main\\java",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Wyatt\\Desktop\\Mods\\1.7.10\\Wizardry\\src\\main\\java\u0027. Skipped."
+  }
+}

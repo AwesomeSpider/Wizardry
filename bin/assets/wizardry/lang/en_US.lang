@@ -1,0 +1,30 @@
+item.orbEmpty.name=Orb of Essence(empty)
+item.orbFire.name=Orb of Essence(Fire)
+item.orbWater.name=Orb of Essence(Water)
+item.orbNature.name=Orb of Essence(Nature)
+item.orbLife.name=Orb of Essence(Life)
+item.orbMining.name=Orb of Essence(Mining)
+item.orbRiches.name=Orb of Essence(Riches)
+item.orbMagic.name=Orb of Essence(Magic)
+item.magic.name=Condensed Magic
+item.clover.name=Clover
+item.wispyCrystal.name=Wispy Crystal
+item.wispyAir.name=Ghostly Fume
+item.eternalEmber.name=Eternal Ember
+item.emberRuby1.name=Rough Ember Ruby
+item.emberRuby2.name=Ember Ruby
+item.fruitOfMaztrix.name=Fruit of Maztrix
+item.darkSilk.name=Dark Silk
+item.castIronBlend.name=Cast Iron Blend
+item.castIron.name=Cast Iron
+
+tile.leavesMaztrix.name=Leaves of Maztrix
+tile.logMaztrix.name=Wood of Maztrix
+tile.woodPlanksMaztrix.name=Wood Planks of Maztrix
+
+entity.greyMan.name=Grey Man
+entity.wisp.name=Wisp
+entity.mutatedSpider.name=Mutated Spider
+
+itemGroup.itemsTab=Wizardry Items
+itemGroup.blocksTab=Wizardry Blocks

@@ -1,0 +1,5 @@
+package com.awsp8.wizardry.entity.render;
+
+public class RenderPowerMatrix {
+
+}

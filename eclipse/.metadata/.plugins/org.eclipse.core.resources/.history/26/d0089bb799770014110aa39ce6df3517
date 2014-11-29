@@ -1,0 +1,5 @@
+package com.awsp8.wizardry.Events;
+
+public class MagicRechargeHandler {
+
+}

@@ -1,0 +1,8 @@
+package com.awsp8.wizardry.Blocks;
+
+import net.minecraft.block.BlockSapling;
+
+public class BlockMaztrixSapling 
+				extends BlockSapling {
+
+}
