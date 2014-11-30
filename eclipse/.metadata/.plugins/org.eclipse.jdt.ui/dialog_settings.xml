@@ -48,7 +48,7 @@
 		<item value="false" key="create_package_info_java"/>
 	</section>
 	<section name="completion_proposal_size">
-		<item value="252" key="size.y"/>
+		<item value="363" key="size.y"/>
 		<item value="356" key="size.x"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
