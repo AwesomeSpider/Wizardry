@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Minecraft/src/main/resources/assets/wizardry/textures/gui/arcane_harnesser_(and cumbuster)_gui.png&apos; to &apos;arcaneHarnesserGui.png&apos;" description="Rename resource &apos;arcane_harnesser_(and cumbuster)_gui.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/assets/wizardry/textures/gui/arcane_harnesser_(and cumbuster)_gui.png" name="arcaneHarnesserGui.png" stamp="1417319894386" updateReferences="true"/>
+</session>

@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemBook"/>
 <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
-<fullyQualifiedTypeName name="net.minecraft.client.gui.Gui"/>
 <fullyQualifiedTypeName name="net.minecraft.inventory.Slot"/>
 <fullyQualifiedTypeName name="com.awsp8.wizardry.Items.CondencedMagic"/>
 <fullyQualifiedTypeName name="com.awsp8.wizardry.Events.PlayerRender"/>
@@ -40,7 +39,6 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="net.minecraftforge.event.entity.player.BonemealEvent"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
@@ -55,4 +53,7 @@
 <fullyQualifiedTypeName name="net.minecraftforge.event.entity.player.PlayerWakeUpEvent"/>
 <fullyQualifiedTypeName name="com.awsp8.wizardry.Wizardry"/>
 <fullyQualifiedTypeName name="net.minecraftforge.event.entity.player.PlayerPickupXpEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.Gui"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.FontRenderer"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 </qualifiedTypeNameHistroy>

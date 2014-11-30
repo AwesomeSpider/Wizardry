@@ -1,0 +1,15 @@
+package com.awsp8.wizardry.Arcane.Blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class CastIronBlock
+				extends Block{
+
+	protected CastIronBlock(Material material) {
+		super(material);
+		
+		
+	}
+
+}
