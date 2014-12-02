@@ -48,6 +48,7 @@ import com.awsp8.wizardry.Items.WispyAir;
 import com.awsp8.wizardry.Items.WispyCrystal;
 import com.awsp8.wizardry.Tab.BlocksTab;
 import com.awsp8.wizardry.Tab.ItemsTab;
+import com.awsp8.wizardry.gui.GuiHandler;
 import com.awsp8.wizardry.registry.WizardryRegistry;
 
 import cpw.mods.fml.common.FMLCommonHandler;

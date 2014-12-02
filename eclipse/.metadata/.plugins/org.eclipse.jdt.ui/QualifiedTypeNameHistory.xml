@@ -56,4 +56,6 @@
 <fullyQualifiedTypeName name="net.minecraft.client.gui.Gui"/>
 <fullyQualifiedTypeName name="net.minecraft.client.gui.FontRenderer"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="com.awsp8.wizardry.gui.GuiHandler"/>
+<fullyQualifiedTypeName name="java.net.URLConnection"/>
 </qualifiedTypeNameHistroy>

@@ -19,7 +19,7 @@ public class MaztrixSapling
 	public MaztrixSapling(int maxStackSize, int texture, String name) {
 		setMaxStackSize(maxStackSize);
         setUnlocalizedName(name);
-        setTextureName("wizardry:" + name);
+        setTextureName("wizardry:maztrixSapling");
 	}
 	
 	@Override

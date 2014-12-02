@@ -6,6 +6,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class ArcaneHarnesserGui 
 				extends GuiScreen{
+	public static final int GUI_ID = 20;
 
 	private static final ResourceLocation guiTexture = new ResourceLocation("wizardry", "/textures/gui/arcaneHarnesserGui.png");
 	

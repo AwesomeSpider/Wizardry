@@ -1,0 +1,22 @@
+package com.awsp8.wizardry.registry;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class UpdateRegistry {
+
+	/**
+	 * Returns null if no new version is found. If null
+	 * is returned, no further processing will be done in this
+	 * class.
+	 * @return New Version (if any)
+	 * @throws MalformedURLException 
+	 */
+	public String newVersion()
+			throws MalformedURLException{
+		String result = null;
+		URL url = new URL("");
+		
+		return result;
+	}
+}
