@@ -1,13 +1,17 @@
 package com.awsp8.wizardry.Arcane.Blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
 
 public class BasicMachine
-				extends Block{
+				extends BlockContainer{
 
 	int maxPower = 0;
 	int power = 0;
@@ -116,5 +120,10 @@ public class BasicMachine
 		String itemName = nbt.getString(slotName);
 		
 		return (Item) Item.itemRegistry.getObject(itemName);
+	}
+
+	@Override
+	public TileEntity createNewTileEntity(World world, int p_149915_2_) {
+		return null;
 	}
 }

@@ -1,0 +1,30 @@
+package com.awsp8.wizardry.Entities;
+
+import net.minecraft.entity.EntityLiving;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.world.World;
+
+public class ArcanePowerMatrix 
+				extends EntityLiving{
+
+	
+	
+	public ArcanePowerMatrix(World world) {
+		super(world);
+	}
+
+	@Override
+	protected void entityInit() {
+		
+	}
+
+	@Override
+	public void readEntityFromNBT(NBTTagCompound tags) {
+		
+	}
+
+	@Override
+	public void writeEntityToNBT(NBTTagCompound tags) {
+		
+	}
+}

@@ -20,8 +20,8 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class RenderPowerMatrix
 				extends RenderLiving{
 
-	public RenderPowerMatrix(ModelBase modelBase, float par2) {
-		super(modelBase, par2);
+	public RenderPowerMatrix(ModelBase modelBase, float shadowSize) {
+		super(modelBase, shadowSize);
 	}
 
 	@Override

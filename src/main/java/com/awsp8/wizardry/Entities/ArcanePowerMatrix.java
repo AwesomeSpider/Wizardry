@@ -1,42 +1,46 @@
 package com.awsp8.wizardry.Entities;
 
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.ai.EntityAIAttackOnCollide;
-import net.minecraft.entity.ai.EntityAIHurtByTarget;
-import net.minecraft.entity.ai.EntityAILookIdle;
-import net.minecraft.entity.ai.EntityAIMoveThroughVillage;
-import net.minecraft.entity.ai.EntityAIMoveTowardsRestriction;
-import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
-import net.minecraft.entity.ai.EntityAIOpenDoor;
-import net.minecraft.entity.ai.EntityAISwimming;
-import net.minecraft.entity.ai.EntityAIWander;
-import net.minecraft.entity.ai.EntityAIWatchClosest;
-import net.minecraft.entity.passive.EntityVillager;
-import net.minecraft.entity.player.EntityPlayer;
+import com.awsp8.wizardry.Wizardry;
+
+import sun.misc.SharedSecrets;
+import net.minecraft.entity.EntityLiving;
+import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
 
 public class ArcanePowerMatrix 
-				extends Entity{
+				extends EntityLiving{
 
 	
 	
 	public ArcanePowerMatrix(World world) {
 		super(world);
 	}
-
+	
 	@Override
-	protected void entityInit() {
-		
+	public void entityInit(){
+		super.entityInit();
 	}
-
+	
 	@Override
-	protected void readEntityFromNBT(NBTTagCompound tags) {
+	public void onUpdate(){
+		super.onUpdate();
 		
+		Wizardry.log.debug(this.worldObj.isRemote + ", " + this);
 	}
-
+	
 	@Override
-	protected void writeEntityToNBT(NBTTagCompound tags) {
-		
+	public void applyEntityAttributes(){
+        super.applyEntityAttributes();
+    }
+	
+	@Override
+	public boolean canDespawn(){
+		return false;
+	}
+	
+	@Override
+	public boolean canBePushed(){
+		return false;
 	}
 }

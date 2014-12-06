@@ -27,12 +27,8 @@ public class SaplingGrowHandler {
 	 * @param event
 	 */
 	public void generateTree(String treeType, BonemealEvent event) {
-		if (treeType == "maztrix"){
 			MaztrixTreeGen gen = new MaztrixTreeGen(false, 4, 0, 0, false);
 			
-			event.world.setBlock(event.x, event.y, event.z, Blocks.air);
-			
 			gen.generate(event.world, new Random(), event.x, event.y, event.z);
-		}
 	}
 }

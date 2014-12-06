@@ -1,11 +1,23 @@
 package com.awsp8.wizardry.gui;
 
-import net.minecraft.client.gui.FontRenderer;
-import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.gui.inventory.GuiContainer;
+import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
 
+import com.awsp8.wizardry.Arcane.Blocks.ArcaneSlot;
+import com.awsp8.wizardry.Arcane.Blocks.ContainerArcaneHarnesser;
+import com.awsp8.wizardry.Arcane.Blocks.TileEntityArcaneHarnesser;
+
 public class ArcaneHarnesserGui 
-				extends GuiScreen{
+				extends GuiContainer{
+	
+	private TileEntityArcaneHarnesser tileEntity;
+	
+	public ArcaneHarnesserGui(InventoryPlayer inv, TileEntityArcaneHarnesser tileEntity) {
+		super(new ContainerArcaneHarnesser(inv, tileEntity));
+		this.tileEntity = tileEntity;
+	}
+
 	public static final int GUI_ID = 20;
 
 	private static final ResourceLocation guiTexture = new ResourceLocation("wizardry", "/textures/gui/arcaneHarnesserGui.png");
@@ -14,13 +26,18 @@ public class ArcaneHarnesserGui
     private int ImageHeight = 166;
     
     @Override
-    public void drawScreen(int x, int y, float par3){
-    	this.fontRendererObj.drawString("Arcane Harnesser", x, y, 0, false);
-    	
-    	this.mc.getTextureManager().bindTexture(guiTexture);
+    public void drawScreen(int x, int y, float par3){ 	
         int k = (this.width - this.ImageWidth) / 2;
         byte b0 = 2;
     	
-    	this.drawTexturedModalRect(k, b0, 0, 0, this.ImageWidth, this.ImageHeight);
+        this.mc.getTextureManager().bindTexture(guiTexture);                                  
+        
+    	this.drawTexturedModalRect(k, b0, 0, 0, this.ImageWidth, this.ImageHeight);   
     }
+
+	@Override
+	protected void drawGuiContainerBackgroundLayer(float p_146976_1_,
+			int p_146976_2_, int p_146976_3_) {
+		
+	}
 }

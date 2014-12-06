@@ -1,0 +1,57 @@
+package com.awsp8.wizardry.Arcane.Blocks;
+
+import com.awsp8.wizardry.Info;
+import com.awsp8.wizardry.Wizardry;
+import com.awsp8.wizardry.gui.ArcaneHarnesserGui;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
+
+public class ArcaneHarnesser 
+				extends BasicMachine {
+
+	public ArcaneHarnesser(Material material) {
+		super(material);
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public static IIcon topIcon;
+
+	@SideOnly(Side.CLIENT)
+	public static IIcon sideIcon;
+	
+	@SideOnly(Side.CLIENT)
+	public static IIcon bottomIcon;
+	
+	@Override
+	@SideOnly(Side.CLIENT)
+	public void registerBlockIcons(IIconRegister icon){
+		topIcon = icon.registerIcon(Info.NAME.toLowerCase() + ":machineFrameTop");
+		sideIcon = icon.registerIcon(Info.NAME.toLowerCase() + ":machineFrameSide");
+		bottomIcon = icon.registerIcon(Info.NAME.toLowerCase() + ":machineFrameTop");
+	}
+	
+	@Override
+	@SideOnly(Side.CLIENT)
+	public IIcon getIcon(int side, int metadata){
+		if (side == 0){
+			return bottomIcon;
+		}else if (side == 1){
+			return topIcon;
+		}else {
+			return sideIcon;
+		}
+	}
+	
+	@Override
+	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int p_149727_6_, float p_149727_7_, float p_149727_8_, float p_149727_9_){
+		player.openGui(Wizardry.instance, ArcaneHarnesserGui.GUI_ID, world, x, y, z);
+		
+		return true;
+	}
+}

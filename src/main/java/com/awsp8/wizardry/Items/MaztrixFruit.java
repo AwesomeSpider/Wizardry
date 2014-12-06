@@ -1,6 +1,11 @@
 package com.awsp8.wizardry.Items;
 
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
 
 public class MaztrixFruit
 				extends ItemFood{
@@ -10,7 +15,10 @@ public class MaztrixFruit
 		setMaxStackSize(maxStackSize);
         setUnlocalizedName(name);
         setTextureName("wizardry:" + name);
-        
-        this.setPotionEffect(1, 60, 5, 100);
+	}
+	
+	@Override
+	public void onFoodEaten(ItemStack item, World world, EntityPlayer player){
+		player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 2400, 5));
 	}
 }

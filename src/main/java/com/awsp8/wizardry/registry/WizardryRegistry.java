@@ -104,6 +104,7 @@ public class WizardryRegistry {
 		registerBlock(Wizardry.blockMaztrixSapling);
 		
 		registerBlock(Wizardry.machineFrame);
+		registerBlock(Wizardry.arcaneHarnesser);
 		
 		Wizardry.log.info("[WizardryRegistry] Registering Entities...");
 		registerEntity(GreyMan.class, "greyMan", 660000, 050505);
@@ -119,6 +120,7 @@ public class WizardryRegistry {
         addSpawn(GreyMan.class, 25, 2, 6, new BiomeGenBase[] {});
         
         registerEntity(ArcanePowerMatrix.class, "powerMatrix", 000, 000);
+        addSpawn(GreyMan.class, 25, 2, 6, new BiomeGenBase[] {});
         
 		Wizardry.log.info("[WizardryRegistry] Registering Creative Tabs...");
 		registerCreativeTab(Wizardry.itemsTab);

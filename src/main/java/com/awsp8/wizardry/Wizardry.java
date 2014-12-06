@@ -1,6 +1,7 @@
 package com.awsp8.wizardry;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockBush;
 import net.minecraft.block.BlockLeaves;
 import net.minecraft.block.BlockSapling;
 import net.minecraft.block.material.Material;
@@ -10,12 +11,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidContainerRegistry;
 import net.minecraftforge.fluids.FluidRegistry;
 
 import org.apache.logging.log4j.Logger;
 
+import com.awsp8.wizardry.Arcane.Blocks.ArcaneHarnesser;
 import com.awsp8.wizardry.Arcane.Blocks.MachineFrame;
 import com.awsp8.wizardry.Blocks.BlockMaztrixSapling;
 import com.awsp8.wizardry.Blocks.MaztrixLeaf;
@@ -59,6 +62,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Info.MODID, name = Info.NAME, version = Info.VERSION)
@@ -111,10 +115,11 @@ public class Wizardry{
     public static BlockLeaves maztrixLeaf;
     public static Block maztrixLog;
     public static Block maztrixPlanks;
-    public static BlockSapling blockMaztrixSapling;
+    public static BlockBush blockMaztrixSapling;
     
     	//Arcane Blocks
     public static Block machineFrame;
+    public static Block arcaneHarnesser;
     
     	//Fluids
     public static Block sparklingWaterBlock;
@@ -128,8 +133,17 @@ public class Wizardry{
     
     public static Logger log;
     
+    public static Configuration config;
+    
+    public static boolean checkForUpdates = false;
+    
     @EventHandler
     public void Preinit(FMLPreInitializationEvent event){
+    	config = new Configuration(event.getSuggestedConfigurationFile());
+    	
+    	if (event.getSuggestedConfigurationFile().exists() == false)
+    		config.save();
+    	
     	FMLCommonHandler.instance().bus().register(new PlayerLoginEventListener());
     	
     	log = event.getModLog();
@@ -192,6 +206,13 @@ public class Wizardry{
     				.setStepSound(Block.soundTypeMetal)
     					.setLightLevel(0.5f);
     	
+    	arcaneHarnesser = new ArcaneHarnesser(Material.rock)
+		.setBlockName("arcaneHarnesser")
+			.setBlockTextureName("wizardry:arcaneHarnesser")
+				.setStepSound(Block.soundTypeMetal)
+					.setLightLevel(0.5f)
+						.setHardness(5f);
+    	
     	log.info("Initalizing Creative Tabs...");
     	itemsTab = new ItemsTab("itemsTab", condencedMagic);
     	blocksTab = new BlocksTab("blocksTab", maztrixPlanks);
@@ -214,17 +235,29 @@ public class Wizardry{
     	MinecraftForge.EVENT_BUS.register(BucketHandler.INSTANCE);
     	
     	GameRegistry.registerWorldGenerator(gen, 0);
+    	
+    	config.load();
     }
     
     @EventHandler 
     public void init(FMLInitializationEvent event){
+    	checkForUpdates = config.get(config.CATEGORY_GENERAL, "CheckForUpdates", true).getBoolean();
+    	config.getCategory(config.CATEGORY_GENERAL).get("CheckForUpdates").comment = "Enables The Update Checker, Defaults To True.";
+    	
+    	checkForUpdates = config.get(config.CATEGORY_GENERAL, "allowMagicEditWorld", true).getBoolean();
+    	config.getCategory(config.CATEGORY_GENERAL).get("allowMagicEditWorld").comment = "Enables The Ability of Condensed Magic To Edit The World, Defaults To True.";
+    	
     	wizardryRegistry.start();
         
         clientProxy.registerRenderers();
+        
+    	NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
     }
     
     @EventHandler
     public void Postinit(FMLPostInitializationEvent event){
     	wizardryRegistry.finish();
+    	
+    	config.save();
     }
 }

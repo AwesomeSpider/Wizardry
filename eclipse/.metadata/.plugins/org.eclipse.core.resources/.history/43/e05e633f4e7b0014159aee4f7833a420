@@ -1,0 +1,23 @@
+package com.awsp8.wizardry.Arcane.Blocks;
+
+import com.awsp8.wizardry.Wizardry;
+import com.awsp8.wizardry.gui.ArcaneHarnesserGui;
+
+import net.minecraft.block.material.Material;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.world.World;
+
+public class ArcaneHarnesser 
+				extends BasicMachine {
+
+	public ArcaneHarnesser(Material material) {
+		super(material);
+	}
+	
+	@Override
+	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int p_149727_6_, float p_149727_7_, float p_149727_8_, float p_149727_9_){
+		player.openGui(Wizardry.instance, ArcaneHarnesserGui.GUI_ID, world, x, y, z);
+		
+		return true;
+	}
+}
