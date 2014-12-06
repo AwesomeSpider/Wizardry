@@ -23,6 +23,11 @@ mods/
 resourcepacks/
 saves/
 /options.txt
+README.txt
+MinecraftForge-License.txt
+MinecraftForge-Credits.txt
+LICENSE-fml.txt
+CREDITS-fml.txt
 
 # External tool builders
 .externalToolBuilders/
