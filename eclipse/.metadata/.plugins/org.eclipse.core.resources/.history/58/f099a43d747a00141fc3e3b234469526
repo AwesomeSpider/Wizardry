@@ -1,5 +1,0 @@
-package com.awsp8.wizardry.Arcane.Blocks;
-
-public class ArcaneHarnesser extends BasicMachine {
-
-}
