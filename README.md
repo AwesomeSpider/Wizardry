@@ -7,6 +7,9 @@ Wizardry is a project that I've been working on for a while now (not downloadabl
 
 For more information, you can visit an official wiki I am working on for the mod [here](http://wizardry-mod-wiki.com).
 
+Licence
+========
+
 © Copyright Wyatt Andersen. All right reserved. This mod, and every part of it, is my property.
 
 WHAT YOU MAY DO:
